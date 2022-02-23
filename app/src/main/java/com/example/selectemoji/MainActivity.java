@@ -108,8 +108,6 @@ public class MainActivity extends AppCompatActivity {
         long timeCount = (System.currentTimeMillis() - startTime) / 1000L;
         intent.putExtra("timeCount", timeCount);
 
-        System.out.println(startTime);
-        System.out.println(System.currentTimeMillis());
         startActivity(intent);
     }
 }
